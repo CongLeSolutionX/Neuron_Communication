@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9A7ADD472E115252004D9B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7ADD312E115250004D9B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7ADD382E115250004D9B51;
+			remoteInfo = Neuron_Communication;
+		};
+		9A7ADD512E115252004D9B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7ADD312E115250004D9B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7ADD382E115250004D9B51;
+			remoteInfo = Neuron_Communication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A7ADD392E115250004D9B51 /* Neuron_Communication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron_Communication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7ADD462E115252004D9B51 /* Neuron_CommunicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron_CommunicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7ADD502E115252004D9B51 /* Neuron_CommunicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron_CommunicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A7ADD3B2E115250004D9B51 /* Neuron_Communication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neuron_Communication;
+			sourceTree = "<group>";
+		};
+		9A7ADD492E115252004D9B51 /* Neuron_CommunicationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neuron_CommunicationTests;
+			sourceTree = "<group>";
+		};
+		9A7ADD532E115252004D9B51 /* Neuron_CommunicationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neuron_CommunicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7ADD362E115250004D9B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD432E115252004D9B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD4D2E115252004D9B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7ADD302E115250004D9B51 = {
+			isa = PBXGroup;
+			children = (
+				9A7ADD3B2E115250004D9B51 /* Neuron_Communication */,
+				9A7ADD492E115252004D9B51 /* Neuron_CommunicationTests */,
+				9A7ADD532E115252004D9B51 /* Neuron_CommunicationUITests */,
+				9A7ADD3A2E115250004D9B51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7ADD3A2E115250004D9B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7ADD392E115250004D9B51 /* Neuron_Communication.app */,
+				9A7ADD462E115252004D9B51 /* Neuron_CommunicationTests.xctest */,
+				9A7ADD502E115252004D9B51 /* Neuron_CommunicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7ADD382E115250004D9B51 /* Neuron_Communication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7ADD5A2E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_Communication" */;
+			buildPhases = (
+				9A7ADD352E115250004D9B51 /* Sources */,
+				9A7ADD362E115250004D9B51 /* Frameworks */,
+				9A7ADD372E115250004D9B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A7ADD3B2E115250004D9B51 /* Neuron_Communication */,
+			);
+			name = Neuron_Communication;
+			packageProductDependencies = (
+			);
+			productName = Neuron_Communication;
+			productReference = 9A7ADD392E115250004D9B51 /* Neuron_Communication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7ADD452E115252004D9B51 /* Neuron_CommunicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7ADD5D2E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_CommunicationTests" */;
+			buildPhases = (
+				9A7ADD422E115252004D9B51 /* Sources */,
+				9A7ADD432E115252004D9B51 /* Frameworks */,
+				9A7ADD442E115252004D9B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7ADD482E115252004D9B51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A7ADD492E115252004D9B51 /* Neuron_CommunicationTests */,
+			);
+			name = Neuron_CommunicationTests;
+			packageProductDependencies = (
+			);
+			productName = Neuron_CommunicationTests;
+			productReference = 9A7ADD462E115252004D9B51 /* Neuron_CommunicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7ADD4F2E115252004D9B51 /* Neuron_CommunicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7ADD602E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_CommunicationUITests" */;
+			buildPhases = (
+				9A7ADD4C2E115252004D9B51 /* Sources */,
+				9A7ADD4D2E115252004D9B51 /* Frameworks */,
+				9A7ADD4E2E115252004D9B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7ADD522E115252004D9B51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A7ADD532E115252004D9B51 /* Neuron_CommunicationUITests */,
+			);
+			name = Neuron_CommunicationUITests;
+			packageProductDependencies = (
+			);
+			productName = Neuron_CommunicationUITests;
+			productReference = 9A7ADD502E115252004D9B51 /* Neuron_CommunicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7ADD312E115250004D9B51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9A7ADD382E115250004D9B51 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9A7ADD452E115252004D9B51 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9A7ADD382E115250004D9B51;
+					};
+					9A7ADD4F2E115252004D9B51 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9A7ADD382E115250004D9B51;
+					};
+				};
+			};
+			buildConfigurationList = 9A7ADD342E115250004D9B51 /* Build configuration list for PBXProject "Neuron_Communication" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7ADD302E115250004D9B51;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A7ADD3A2E115250004D9B51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7ADD382E115250004D9B51 /* Neuron_Communication */,
+				9A7ADD452E115252004D9B51 /* Neuron_CommunicationTests */,
+				9A7ADD4F2E115252004D9B51 /* Neuron_CommunicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7ADD372E115250004D9B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD442E115252004D9B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD4E2E115252004D9B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7ADD352E115250004D9B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD422E115252004D9B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7ADD4C2E115252004D9B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7ADD482E115252004D9B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7ADD382E115250004D9B51 /* Neuron_Communication */;
+			targetProxy = 9A7ADD472E115252004D9B51 /* PBXContainerItemProxy */;
+		};
+		9A7ADD522E115252004D9B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7ADD382E115250004D9B51 /* Neuron_Communication */;
+			targetProxy = 9A7ADD512E115252004D9B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A7ADD582E115252004D9B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A7ADD592E115252004D9B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7ADD5B2E115252004D9B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-Communication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A7ADD5C2E115252004D9B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-Communication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A7ADD5E2E115252004D9B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-CommunicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron_Communication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuron_Communication";
+			};
+			name = Debug;
+		};
+		9A7ADD5F2E115252004D9B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-CommunicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron_Communication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuron_Communication";
+			};
+			name = Release;
+		};
+		9A7ADD612E115252004D9B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-CommunicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuron_Communication;
+			};
+			name = Debug;
+		};
+		9A7ADD622E115252004D9B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99WD9D6Y46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.Neuron-CommunicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuron_Communication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7ADD342E115250004D9B51 /* Build configuration list for PBXProject "Neuron_Communication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7ADD582E115252004D9B51 /* Debug */,
+				9A7ADD592E115252004D9B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7ADD5A2E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_Communication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7ADD5B2E115252004D9B51 /* Debug */,
+				9A7ADD5C2E115252004D9B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7ADD5D2E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_CommunicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7ADD5E2E115252004D9B51 /* Debug */,
+				9A7ADD5F2E115252004D9B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7ADD602E115252004D9B51 /* Build configuration list for PBXNativeTarget "Neuron_CommunicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7ADD612E115252004D9B51 /* Debug */,
+				9A7ADD622E115252004D9B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7ADD312E115250004D9B51 /* Project object */;
+}
